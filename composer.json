@@ -1,6 +1,10 @@
 {
 	"name" : "mkrepp/mytestmodule",
 	"type" : "oxideshop-module",
+	"license":     [
+		"GPL-3.0",
+		"proprietary"
+	],
 	"extra" : {
 		"oxideshop" : {
 			"target-directory" : "mkrepp/mytestmodule"
