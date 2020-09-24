@@ -1,0 +1,17 @@
+{
+	"name" : "mkrepp/mytestmodule",
+	"type" : "oxideshop-module",
+	"extra" : {
+		"oxideshop" : {
+			"target-directory" : "mkrepp/mytestmodule"
+		}
+	},
+	"require" : {
+		"php" : ">=5.6"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"mkrepp\\mytestmodule\\" : "../../../source/modules/mkrepp/mytestmodule"
+		}
+	}
+}
