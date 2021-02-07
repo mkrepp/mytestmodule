@@ -21,7 +21,9 @@ $aModule = array(
     'author'      => 'Matthias Krepp',
     'url'         => '',
     'email'       => 'hepppes@gmx.de',
-    'extend'      => array(),
+    'extend'      => array(
+        \OxidEsales\Eshop\Application\Controller\ArticleDetailsController::class => \mkrepp\mytestmodule\Controller\MyArticleDetailsController::class
+    ),
     'controllers'       => array(
         'mytestcontroller' => \mkrepp\mytestmodule\Controller\MyTestController::class,
     ),
