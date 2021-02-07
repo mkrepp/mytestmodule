@@ -2,7 +2,7 @@
 
 namespace mkrepp\mytestmodule\Controller;
 
-class MyArticleDetailsController extends ArticleDetailsController_parent
+class MyArticleDetailsController extends MyArticleDetailsController_parent
 {
     public function render()
     {
